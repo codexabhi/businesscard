@@ -391,6 +391,37 @@ body{
 }
 
 @media (max-width: 576px) {
+    .card-backgrond {
+        height: 100vh;
+        padding: 10px;
+    }
+    .card-page {
+        width: 100%;
+        height: 85vh;
+        border-radius: 10px;
+        margin: 0;
+    }
+    .hexagon img {
+        margin-top: 30px;
+        height: 180px;
+        width: 180px;
+    }
+    .card-3-logo {
+        margin-top: 40px;
+        width: 110px;
+        height: 110px;
+    }
+    .card-4-img img {
+        height: 80px;
+        width: 80px;
+    }
+    .card-8-img {
+        height: 80px;
+        width: 80px;
+    }
+}
+
+@media (max-width: 576px) {
     .banner {
         padding: 20% 0;
     }
@@ -591,5 +622,23 @@ body{
     }
     .auth-card {
         margin: 10px 0;
+        padding: 25px 20px;
+    }
+    .auth-page {
+        padding: 10px;
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .auth-container {
+        width: 100%;
+        max-width: 100%;
+    }
+    .auth-header h3 {
+        font-size: 24px;
+    }
+    .auth-header p {
+        font-size: 14px;
     }
 }
